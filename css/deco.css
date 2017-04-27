@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS de Deco Spaces */
+/* ---- Estilos básicos ---------------------------------------------------- */
+body {
+    font: 11px Verdana, Geneva, sans-serif;
+	background-image: url(../imgs/web-decospaces_fondo.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+form{
+	text-align:start;	
+}
+img {
+    border-width: 0;
+}
+h1{
+	font: bold 25px Verdana, Geneva, sans-serif;
+	color: #73144e;
+}
+p{
+	font: 12px Verdana, Geneva, sans-serif;
+	color: #73144e;
+}
+.centrar {
+text-align: center;
+position: relative;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+
+.anchoCentrado{
+	margin: 0 auto;
+	width: 1025px;
+}
+#cabecera{
+	padding-top: 0px auto;
+	alignment-adjust: central;
+}
+#menu{
+	font: 12px Verdana, Geneva, sans-serif;
+    position: relative;
+	alignment-adjust: central;
+}
+#centrar{
+	text-align: center;
+}
+#menu ul {
+    margin: 10px;
+    padding: 0 0 4px;
+}
+#menu ul li {
+    background: url("../imgs/menu/sep1.gif") no-repeat scroll right bottom transparent;
+    display: inline;
+    list-style: none outside none;
+    margin: 9px;
+    padding: 0 50px 0 0;
+}
+#menu ul li img {
+	vertical-align: -13px; 
+}
+#menu ul li.final {
+    background: url("../imgs/menu/blank.gif") repeat scroll right top transparent !important;
+    padding-right: 20px;
+}
+#menu ul li.home {
+    background: url("../imgs/menu/blank.gif") repeat scroll 0 0 transparent !important;
+    bottom: 48px;
+    padding: 0 0 2px;
+    position: absolute;
+    right: 0;
+}
+
+.encabezado-banner{
+    color: #73144E;
+    font: 14px Verdana, Geneva, sans-serif;
+    margin-bottom: 6px;
+}
+
+.menuBorder{
+	border-bottom: 1px solid #73144E;
+	height: 4px;
+}
+
+#bannerSP {
+    position: absolue;
+	right: 15px !important;
+}
+
+.subtitulo {
+    color: #73144E;
+    font: bold 16px Verdana, Geneva, sans-serif;
+    margin-bottom: 6px;
+	vertical-align: middle !important;
+}
+
+#divHomeAbajo {
+    height: 40px;
+    position: relative;
+}
+
+#divHometxt .introHome {
+	height: 30px;
+	left: 190px;
+	position: absolute;
+	top: 0;
+	width: 612px;
+	text-align: center;
+
+}
+
+#divHometxt .subtitulo {
+	border-right: 1px solid #D4DCD7;
+	height: 30px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 180px;
+}
+
+.divHomeDestacado {
+    background: none repeat scroll 0 0 #C4BCCC;
+    height: 143px;
+    margin: 0 0 10px auto;
+    padding-top: 4px;
+    width: 190px;
+}
+
+.divHomeDestacado1 {
+    background: none repeat scroll 0 0 #C4BCCC;
+    height: 90px;
+    margin: 0 0 10px auto;
+    padding-top: 4px;
+    width: 190px;
+}
+.divHomeDestacado1alfa {
+    background: none repeat scroll 0 0 #C4BCCC;
+    height: 93px;
+    margin: 0 0 10px auto;
+    padding-top: 2px;
+    width: 190px;
+}
+#bannerSP {
+	position: absolute;
+	right: 0;
+	vertical-align: middle;
+	top: 1px;
+}
+
+/* ---- PIE DE PAGINA ---------------------------------------------------- */
+
+#pie {
+    border-top: 1px solid #D4DCD7;
+    margin-top: 20px !important;
+}
+.pieHome #pie {
+    margin-top: 0 !important;
+}
+html > body .pieHome #pie {
+    margin-top: 20px !important;
+}
+
+#navegacionInferior {
+    color: #73144E;
+    height: 30px;
+    position: relative;
+}
+#navegacionInferior #pieA {
+    left: 20px;
+    position: absolute;
+    top: 6px;
+}
+#navegacionInferior #pieB {
+    left: 375px;
+    position: absolute;
+    top: 6px;
+}
+#navegacionInferior #idiomas {
+    position: absolute;
+    right: 20px;
+    top: 6px;
+}
+#navegacionInferior a:hover {
+    color: #73144E;
+    text-decoration: underline;
+}
+#navegacionInferior a {
+    color: #73144E;
+    text-decoration: none;
+}
+#copy {
+    color: #73144E;
+    text-align: center;
+    top: 20px;
+}
+#cajaHome {
+	/*left: 9px !important;*/
+    background: none repeat scroll 0 0;
+    height: 520px;
+    position: relative;
+}
+#fotoHome {
+    height: 474px;
+    margin-right: center;
+    width: 800px;
+}
+#galeriaFotos{
+	margin-left: 8px !important;
+	height: 474px;
+	width: 800px;
+}
+#proyectos{ 
+	font: 15px Verdana, Geneva, sans-serif;
+	color: #73144E;
+	height: 474px;
+	width: 800px;
+	text-align: left !important;
+	margin-left: 25px !important;
+}
+#colaboradores1{
+	font: 15px Verdana, Geneva, sans-serif;
+	color: #73144E;
+	display: inline;
+	position: relative;
+	height: 150px;
+	width: 230px;
+	text-align: center;
+	margin-left: 25px !important;
+	margin-top: 25px !important;
+}
+#colaboradores2{
+	font: 15px Verdana, Geneva, sans-serif;
+	color: #73144E;
+	display: inline-table;
+	position: relative;
+	height: 150px;
+	width: 230px;
+	text-align: center;
+	margin-left: 25px !important;
+	margin-top: 25px !important;
+}
+#cajacolab {
+	/*left: 9px !important;*/
+	font: 15px Verdana, Geneva, sans-serif;
+	color: #73144E;
+	text-align: left;
+    background: none repeat scroll 0 0;
+    height: 474px;
+    margin-right: center;
+    width: 800px;
+    position: relative;
+}
+#cajacolab2 {
+	font: Verdana, Geneva, sans-serif;
+	font-size: 20px;
+	color: #73144E;
+	text-align: center;
+    background: none repeat scroll 0 0;
+    height: 474px;
+    margin-right: center;
+    width: 800px;
+    position: relative;
+}
+#descripcion_colaboradores{
+	font: 15px Verdana, Geneva, sans-serif;
+	color: #73144E;
+	text-align: left;
+	position: relative;
+	width: 775px;
+	height: 75px;
+	margin-top: 8px !important;
+	margin-left: 8px !important;
+}
+#politica {
+	font: 10px Verdana, Geneva, sans-serif;
+	text-align: left;
+    height: 374px;
+    width: 650px;
+	margin-top: 40 px !important;
+}
+#divHomeAbajo {
+    height: 40px;
+    position: relative;
+}
+#divHometxt {
+    font: 12px arial,sans-serif;
+    height: 40px;
+    position: relative;
+    width: 960px;
+}
+.homeLateral {
+    height: 475px;
+    left: 820px;
+    position: absolute;
+    top: 0;
+    width: 190px;
+	text-align: center !important;
+}
+.menuBorderZero{
+	height: 4px;
+}
+
+/* ---- ENLACES ---------------------------------------------------- */
+
+a:hover {
+    color: #CBBB9D;
+    text-decoration: none;
+}
+a {
+    color: #73144E;
+    text-decoration: none;
+}
+/* ---- FORMULARIO CONTACTO------------------------------------------ */
+.cajaForm {
+    height: 440px;
+    padding: 10px;
+}
+.seccion {
+    color: #73144e;
+    font: bold 17px Verdana, Geneva, sans-serif;
+	text-align: left;
+	margin-left: 15px;
+    padding: 4px 0;
+}
+.titulo{
+	color: #000;
+	font: 13px Verdana, Geneva, sans-serif;
+	padding-bottom: 5px;
+	text-align: left;
+	margin-left: 5px;
+}
+.formulario{
+    color: #73144e;
+    font: 12px Verdana, Geneva, sans-serif;
+    position: relative;
+}
+.politica{
+	color: #73144e;
+    font: 9px Verdana, Geneva, sans-serif;
+    left: 10px;
+    padding-top: 4px;
+    top: 328px;
+    width: 800px;
+}
+#formularioContacto {
+    position: relative;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
